@@ -91,7 +91,7 @@ client.on("message", msg => {
 });
 /////Reklam////
 client.on('ready' , () => {
-var join = client.channels.get("id voice")/// ئاید ڤۆیس
+var join = client.channels.get("")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
@@ -101,7 +101,7 @@ if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link server`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`> `)/// لینکە سیرڤەرە خۆت
  
   client.channels.get("id text").send(
 `> Nerdra la layan <@${message.author.id}> 
