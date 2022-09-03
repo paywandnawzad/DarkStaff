@@ -91,7 +91,7 @@ client.on("message", msg => {
 });
 /////Reklam////
 client.on('ready' , () => {
-var join = client.channels.get("1015617798367621200")/// ئاید ڤۆیس
+var join = client.channels.get("1015617799558811708")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
