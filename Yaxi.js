@@ -89,18 +89,6 @@ client.on("message", msg => {
     );
   }
 });
-
-////voice////
-const channelid = "1008383722673934507"//id channele vc
-client.on("ready", () => {
-    const channel = client.channels.cache.get(channelid);
-    if (!channel) return console.error("The channel does not exist!");
-    channel.join().then(connection => {
-        console.log("Successfully connected.");
-    }).catch(e => {
-        console.error(e);
-    });
-});
 /////Reklam////
 client.on('ready' , () => {
 var join = client.channels.get("1008383722673934507")/// ئاید ڤۆیس
