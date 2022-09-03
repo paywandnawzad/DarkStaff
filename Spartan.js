@@ -91,7 +91,7 @@ client.on("message", msg => {
 });
 /////Reklam////
 client.on('ready' , () => {
-var join = client.channels.get("1008383722673934507")/// ئاید ڤۆیس
+var join = client.channels.get("1015617798367621200")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
@@ -103,7 +103,7 @@ if (message.content.startsWith("https://discord.gg/")) {
  
   message.author.send(`>https://discord.gg/axVvBTsAdA`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("1008383727065378887").send(
+  client.channels.get("1015617798367621200").send(
 `> Nerdra la layan <@${message.author.id}> 
 ${message.content}`)
 }
