@@ -110,5 +110,5 @@ ${message.content}`)
     }
         })
 
-client.login("MTAxNTU5MTQzMDg1ODc1NjA5Nw.G40Ffi.jHSNizMLh03-41D_ehgIm78WCYRpDa0MUMcxBU");
+client.login("MTAxNTU5MTQzMDg1ODc1NjA5Nw.GakoSK.FRM_hmZf6PhKlW6C6wkwEyXir7daxL6w39jHEE");
 
